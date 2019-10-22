@@ -1,0 +1,105 @@
+starting program . . .
+classifications = ['apple', 'banana', 'cherry', 'mango', 'strawberry']
+2018-11-13 01:03:43.632333: W tensorflow/core/framework/op_def_util.cc:355] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+2018-11-13 01:03:43.716555: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2018-11-13 01:03:43.726295: I tensorflow/core/common_runtime/process_util.cc:69] Creating new thread pool with default inter op setting: 12. Tune using inter_op_parallelism_threads for best performance.
+
+apple1.jpg
+---------------------------------------
+the object appears to be a apple, 60.84% confidence
+apple (0.60838)
+mango (0.33051)
+cherry (0.04253)
+banana (0.01136)
+strawberry (0.00721)
+
+
+apple2.jpg
+---------------------------------------
+the object appears to be a apple, 72.00% confidence
+apple (0.71996)
+mango (0.20201)
+strawberry (0.04591)
+cherry (0.01999)
+banana (0.01214)
+
+
+banana1.jpg
+---------------------------------------
+the object appears to be a banana, 96.70% confidence
+banana (0.96704)
+strawberry (0.02231)
+apple (0.00578)
+cherry (0.00270)
+mango (0.00218)
+
+
+banana2.jpg
+---------------------------------------
+the object appears to be a banana, 96.05% confidence
+banana (0.96054)
+strawberry (0.02832)
+apple (0.00554)
+cherry (0.00286)
+mango (0.00274)
+
+
+cherry.jpg
+---------------------------------------
+the object appears to be a cherry, 95.93% confidence
+cherry (0.95927)
+mango (0.02482)
+apple (0.01083)
+strawberry (0.00338)
+banana (0.00170)
+
+
+cherry2.jpg
+---------------------------------------
+the object appears to be a cherry, 89.62% confidence
+cherry (0.89619)
+apple (0.05088)
+mango (0.02976)
+strawberry (0.01667)
+banana (0.00650)
+
+
+mango1.jpg
+---------------------------------------
+the object appears to be a mango, 96.49% confidence
+mango (0.96486)
+apple (0.01793)
+cherry (0.01021)
+strawberry (0.00416)
+banana (0.00284)
+
+
+mango2.jpg
+---------------------------------------
+the object appears to be a mango, 87.59% confidence
+mango (0.87588)
+apple (0.07368)
+cherry (0.02228)
+strawberry (0.01641)
+banana (0.01174)
+
+
+strawberry1.jpg
+---------------------------------------
+the object appears to be a strawberry, 96.42% confidence
+strawberry (0.96423)
+banana (0.01509)
+apple (0.00999)
+cherry (0.00727)
+mango (0.00342)
+
+
+strawberry2.jpg
+---------------------------------------
+the object appears to be a strawberry, 97.41% confidence
+strawberry (0.97415)
+banana (0.01051)
+apple (0.00828)
+cherry (0.00516)
+mango (0.00190)
+Press any key to continue . . .
